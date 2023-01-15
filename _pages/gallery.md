@@ -1,30 +1,14 @@
 ---
 layout: page
-title: gallery
+title: Gallery
 permalink: /gallery/
 description: A growing collection of your cool gallery.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
-
-<div class="container">
-    <div class="shadow"></div>
-    <div class="cat">
-        <div class="ear"></div>
-        <div class="eye"></div>
-        <div class="mouth"></div>
-        <div class="nose"></div>
-        <div class="tail"></div>
-        <div class="body"></div>
-        <div class="bubble"></div>
-    </div>
-</div>
-
 <style>
-body{
-  background-image: {% include figure.html path="assets/img/gallery_4.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %};
+.whole{
 }
 .cat {
     background-color: #939296;
@@ -175,26 +159,42 @@ body{
 }
 </style>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery_1.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery_5.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery_3.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+<div class="whole">
+  <div class="container">
+      <div class="shadow"></div>
+      <div class="cat">
+          <div class="ear"></div>
+          <div class="eye"></div>
+          <div class="mouth"></div>
+          <div class="nose"></div>
+          <div class="tail"></div>
+          <div class="body"></div>
+          <div class="bubble"></div>
+      </div>
+  </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery_4.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery_2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery_6.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
+  <div class="row mt-3">
+      <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/gallery_1.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/gallery_5.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/gallery_3.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+  </div>
+
+  <div class="row mt-3">
+      <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/gallery_4.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/gallery_2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/gallery_6.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+  </div>
+
 </div>
