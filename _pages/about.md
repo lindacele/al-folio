@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: linda.jpg
+  image: profile.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Munich, Germany</p>
@@ -17,4 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-About yourself.
+Hello, I am Linda and 26 years old, at the moment I am a student at XXX University. 
+
+
+In my free time I like to painting, go to the gym, read, and cook.
